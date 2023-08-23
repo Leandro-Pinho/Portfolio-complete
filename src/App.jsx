@@ -12,8 +12,8 @@ import './App.css'
 
 function App() {
   return <BrowserRouter>
+    <Navbar />
     <Routes>
-      <Navbar />
       <Route index element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='portfolio' element={<Portfolio />} />

@@ -1,0 +1,32 @@
+/* =================== google fonts ================= */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap');
+
+/* =================== css variables ================= */
+:root {
+    /* ========= colors =========== */
+    /* color mode hsl */
+    --first-color: hsl(271, 76%, 53%);
+    --title-color: hsl(0, 0%, 40%);
+    --text-color: hsl(0, 0%, 50%);
+    --body-color: hsl(0, 0%, 100%);
+    --container-color: hsl(0, 0%, 93%);
+    --border-color: hsl(0, 0%, 87%);
+    --text-white: #fff;
+
+    /* ========= font and typography ========= */
+    --body-font: 'Open Sans', sans-serif;
+    --second-font: 'Poppins', sans-serif;
+
+    --h1-font-size: 50px;
+    --h2-font-size: 32px;
+    --h3-font-size: 24px;
+    --big-font-size: 56px;
+    --large-font-size: 18px;
+    --normal-font-size: 16px;
+    --small-font-size: 15px;
+    --smaller-font-size: 14px;
+    --tiny-font-size: 12px;
+
+    /* ========= font weight ========= */
+
+}
