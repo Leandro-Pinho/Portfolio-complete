@@ -2,10 +2,53 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.portfolio__item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio__img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.portfolio__hover {
+    background-color: var(--first-color);
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.portfolio__item:hover .portfolio__hover {
+    opacity: 1;
+}
+
+.portfolio__title {
+    color: var(--text-white);
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-500);
+    transform: translateY(-20px);
+    transition: all .5s ease;
+}
+
+.portfolio__item:hover .portfolio__title {
+    transform: translateY(0);
+}
+
 .portfolio__modal {
     position: fixed;
     inset: 0;
     background-color: hsla(0, 0%, 0%, 0.7);
+    z-index: 1000;
+    display: grid;
+    place-items: center;
 }
 
 .modal__close {
