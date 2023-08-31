@@ -8,11 +8,13 @@ import Contact from './pages/contact/Contact';
 import Navbar from './components/Navbar';
 
 import './App.css'
+import Themes from './components/Themes';
 
 
 function App() {
   return <BrowserRouter>
     <Navbar />
+    <Themes />
     <Routes>
       <Route index element={<Home />} />
       <Route path='about' element={<About />} />
