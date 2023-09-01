@@ -43,6 +43,20 @@
     --border-color: hsl(0, 0%, 15%);
 }
 
+/* =========== responsive typography ========= */
+@media screen and (max-width: 1200px) {
+    :root {
+        --h1-font-size: 32px;
+        --h2-font-size: 24px;
+        --h3-font-size: 20px;
+        --big-font-size: 36px;
+        --large-font-size: 16px;
+        --normal-font-size: 15px;
+        --small-font-size: 14px;
+        --smaller-font-size: 13px;
+        --tiny-font-size: 11px;
+    }
+}
 
 /* =============== base ============== */
 * {
@@ -164,4 +178,3 @@ img {
     text-align: center;
     line-height: 60px;
 }
-

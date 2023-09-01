@@ -65,8 +65,8 @@ const Themes = () => {
 
         <h3 className="style__switcher-title">Style Switcher</h3>
         <div className="style__switcher-items">
-          {themes.map((theme, index) => {
-            return <ThemeItem key={index} {...theme} changeColor={changeColor} />
+          {themes.map((theme, id) => {
+            return <ThemeItem key={id} {...theme} changeColor={changeColor} />
           })}
         </div>
 
